@@ -1,0 +1,47 @@
+# Name : Leon Kobia
+# Date : 12/02/2026
+# String Formatting
+
+# Get string length
+sentence = "I play rugby"
+
+string_length = len(sentence)
+
+print(f"The length is:{string_length}")
+
+# Splitting a string
+sentence_2 = "Mathematics Physics"
+split = sentence_2.split(" ")
+
+print(f"The first subject is {split[0]}")
+
+
+#Make everything CAPS
+mpesa_code = "ub21xdd4re"
+
+capitalized = mpesa_code.upper()
+
+print("New mpesa code: ", capitalized)
+
+#Make everthing lower case
+mpesa_code = "UB21XDD4RE"
+
+lower = mpesa_code.lower()
+
+print("New mpesa code: ", lower )
+
+# Replacing characters in a string
+
+balance = "100Kes"
+amount_added = "50Kes" 
+
+cleaned_balance = balance.replace("Kes","")
+
+print("Cleaned balance: ", cleaned_balance)
+
+cleaned_amount_added = amount_added.replace("Kes", "")
+print("Cleaned amount added is: ", cleaned_amount_added)
+
+total_balance = int(cleaned_balance) + int (cleaned_amount_added)
+print(f"|Your new Mpesa Balance is:{total_balance}Kes")
+print(f" CONFIRMED,You have received {amount_added} from Phillip.New balance is {total_balance}Kes")
