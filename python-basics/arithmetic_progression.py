@@ -13,3 +13,5 @@ print(f"The nth term is : {nth_term}")
 
 sn = (n / 2) * (2 * a + (n-1) * d)
 print(f"The sum of the first 10 terms is {sn}")
+
+

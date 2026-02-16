@@ -1,0 +1,12 @@
+#Name : Leon Kobia
+#Date : 13/02/26
+#Program to calculate geometric progression
+a = int(input("Enter the first number :"))
+r = int(input("Enter the common ratio :"))
+n = int(input("Enter the number of terms :"))
+
+nth_term = a * (r **(n-1))
+print(f"The nth term is : {nth_term}")
+
+sn = a*((r**n)-1))/(r-1)
+print(f"The sum of the terms is : {sn}")
