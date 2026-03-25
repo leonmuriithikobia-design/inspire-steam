@@ -4,6 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module05: Classes, ids</title>
+
+    <style>
+        body{
+            background-color: black;
+            color: beige;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+            #page-wrapper{
+                max-width: 700px;
+                margin: 0 auto;
+            }
+            .OVO{
+                width: 400px;
+                height: 400px;
+                object-fit: contain;
+
+            }
+            #Photos{
+                background-color: antiquewhite;
+            }
+            #Listening-Section{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                width: 500px;
+                height: 500px;
+                background-color: antiquewhite;
+            }
+
+
+        
+
+    </style>
 </head>
 <body>
     <!--
@@ -13,9 +49,22 @@
     -->
     <div id="page-wrapper">
         <h1>Drake</h1>
-        <p>6 God from the great Toronto, revolutionising Rap and RNB fusion</p>
+        <p>Known as the little mixed kid from the great Toronto, revolutionising Rap and RNB fusion</p>
+        <div>
+
+        
         <img class="OVO Photos" src="./Assets/drake.jpg" alt="Band Photo">
         <img class="OVO Photos" src="./Assets/drizzy.jpg" alt="Band Photo">
+        </div>
+        <div class="Listening-Section">
+
+            <p class="song">Latest Song</p>
+            <p class="song">Earlier Song</p>
+        
+        </div>
+
+
+
 
     </div>
 </body>
